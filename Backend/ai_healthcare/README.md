@@ -18,12 +18,14 @@ This project uses the Brain Tumor MRI Dataset from Kaggle:
 [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
 
 The dataset contains 7023 MRI images of human brains, classified into 4 classes:
+
 - Glioma
 - Meningioma
 - Pituitary
 - No Tumor
 
 ### Dataset Details
+
 - Total Images: 7023
 - Image Format: jpg
 - Resolution: 240 x 240 pixels
@@ -40,33 +42,33 @@ The dataset contains 7023 MRI images of human brains, classified into 4 classes:
 ## Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/yourusername/brain-tumor-detection.git
 cd brain-tumor-detection
 ```
 
 2. Create a virtual environment (recommended):
+
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 3. Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Download the model:
-- Visit [CNN Brain Tumor Detector on Kaggle](https://www.kaggle.com/models/esfiam/cnn-brain-tumor-detector?select=brain_tumor_mri.keras)
-- Download the `brain_tumor_mri.keras` file
-- Place it in the project root directory
+4. Run the application:
 
-5. Run the application:
 ```bash
 python app.py
 ```
 
-6. Open your browser and navigate to:
+5. Open your browser and navigate to:
+
 ```
 http://localhost:5000
 ```
@@ -102,6 +104,7 @@ brain-tumor-detection/
 ## Model Performance
 
 The model achieves the following performance metrics:
+
 - Accuracy: ~98%
 - Precision: ~97%
 - Recall: ~97%
@@ -114,4 +117,3 @@ The model achieves the following performance metrics:
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
